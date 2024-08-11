@@ -24,3 +24,9 @@
 
         - name: Dotnet publish
           run: dotnet publish src/GitHubActionsDotNet.Api/GitHubActionsDotNet.Api.csproj --configuration Release -o artifacts
+
+        - name: Upload artifact
+          uses: actions/upload-artifact@v4
+          with:
+            name: dometrain-artifact
+            path: artifacts/
