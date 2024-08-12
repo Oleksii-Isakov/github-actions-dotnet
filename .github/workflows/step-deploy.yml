@@ -9,9 +9,9 @@
       secrets:
         AZURE_CLIENT_ID:
           required: true
-        AZURE_AZURE_TENANT_ID:
+        AZURE_TENANT_ID:
           required: true
-        AZURE_AZURE_SUBSCRIPTION_ID:
+        AZURE_SUBSCRIPTION_ID:
           required: true
 
   jobs:
